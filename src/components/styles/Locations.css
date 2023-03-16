@@ -1,0 +1,21 @@
+
+
+.text__name {
+    text-align: center;
+    color: rgb(96, 208, 16);
+}
+
+.location__text {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    gap: 3.5rem;
+}
+
+.text__h3__location {
+    color: rgb(5, 155, 5);
+}
+
+.location__span {
+    color: white;
+}

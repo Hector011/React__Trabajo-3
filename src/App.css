@@ -1,0 +1,22 @@
+.App {
+  color: green;
+  background-color: #2C3333;
+ }
+
+
+.residents__container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 20px;
+  max-width: 1480px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  color: rgb(88, 197, 88);
+}

@@ -1,0 +1,66 @@
+.card {
+    width: 100%;
+    max-width: 280px;
+}
+
+.card__header {
+    width: 100%;
+    aspect-ratio: 1;
+    position: relative;
+}
+
+.avatar {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.circle__container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 10%;
+    width: 30%;
+    padding: 5px 0 5px 5px;
+    border-radius: 0 8px 8px 0;
+    
+    background-color: #062226;
+    color: white;
+}
+
+.card__circle {
+    width: 10px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: rgb(151, 151, 151);
+    margin-right: 5px;
+}
+
+.Alive {
+    background-color: rgb(2, 174, 2);
+}
+
+.Dead {
+    background-color: rgb(218, 3, 3);
+}
+
+
+
+.card__body {
+    padding: 15px;
+
+    background-color: #2E4F4F;
+    color: white;
+}
+
+.card__item {
+    color: rgb(152, 152, 152);
+    font-size: 15px;
+}
+
+.card__name {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
